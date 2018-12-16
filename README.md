@@ -5,6 +5,12 @@
 ## Env
 
 ```bash
+# Create flag file
+cd /
+sudo mkdir proj2
+cd proj2/
+sudo vim flag1
+
 # Same command as Remote (Ubuntu 18.04) and Local (macOS 10.12.6)
 python2 -V
 virtualenv venv --python=python2
